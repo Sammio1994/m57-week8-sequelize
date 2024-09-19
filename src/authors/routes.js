@@ -7,6 +7,6 @@ authorRouter.get("/authors/getauthorbyauthor/:author", getAuthorByAuthor);
 
 authorRouter.post("/authors/addauthor", addAuthor);
 
-authorRouter.get("/auhtors/getallauthors/", getAllAuthors)
+authorRouter.get("/authors/getallauthors/", getAllAuthors)
 
 module.exports = authorRouter;
